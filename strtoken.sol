@@ -2,9 +2,9 @@
 pragma solidity ^0.8.0;
 
 contract MyToken {
-    string public tokenName = "sritam";
-    string public tokenAbbrv ="srt";
-    uint256 public totalSupply= 20;
+    string public tokenName = "arif";
+    string public tokenAbbrv ="arf";
+    uint256 public totalSupply= 22;
     mapping(address => uint256) public balances;
 
     constructor(string memory _name, string memory _abbrv, uint256 _intSupply) {
